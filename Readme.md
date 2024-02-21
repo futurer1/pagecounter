@@ -50,3 +50,6 @@ Enter root directory path.
 Documents: 127
 Pages: 3238
 ```
+
+#### Notice
+! All directories and files into target folder must be readable.
