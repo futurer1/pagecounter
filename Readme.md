@@ -33,7 +33,7 @@ You can add another output views, e.t. for printer, network or other.
 
 
 Build with gradle wrapper:
-```commandline
+```
 ./gradlew clean build
 ```
 
@@ -51,5 +51,5 @@ Documents: 127
 Pages: 3238
 ```
 
-#### Notice
-! All directories and files into target folder must be readable.
+#### Notice!
+All directories and files into target folder must be access for read.
