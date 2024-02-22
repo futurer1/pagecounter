@@ -29,8 +29,7 @@ public class CountPagesReportCreator implements ReportCreator {
     @Override
     public DocumentProperties[] make() {
 
-        var el = fileNamesWithPath.size();
-        DocumentProperties[] docsInfo = new DocumentProperties[el];
+        DocumentProperties[] docsInfo = new DocumentProperties[fileNamesWithPath.size()];
 
         int i = 0;
         for (String filename: fileNamesWithPath) {
