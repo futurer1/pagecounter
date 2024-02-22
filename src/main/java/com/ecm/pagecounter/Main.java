@@ -15,6 +15,7 @@ public class Main {
     public static void main(String[] args) {
 
         System.out.println("Enter root directory path.");
+        
         Scanner scanner = new Scanner(System.in);
         String userInput = scanner.nextLine();
 
